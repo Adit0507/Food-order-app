@@ -1,15 +1,14 @@
-import React from 'react'
-import MealsSummary from "./MealsSummary"
-import AvailableMeals from './AvailableMeals'
-
+import React from "react";
+import MealsSummary from "./MealsSummary";
+import AvailableMeals from "./AvailableMeals";
 
 const Meals = () => {
   return (
     <>
-        <MealsSummary />
-        <AvailableMeals />
+      <MealsSummary />
+      <AvailableMeals />
     </>
-  )
-}
+  );
+};
 
-export default Meals
+export default Meals;
